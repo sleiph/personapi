@@ -1,4 +1,4 @@
-# PersonAPI
+# PersonAPI 🚶‍♀️
 
 ## Digital Innovation: Expert class - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot</h2>
 
@@ -24,7 +24,6 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço e visual
 ```
 http://localhost:8080/api/v1/people
 ```
-
 
 São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
 
@@ -52,3 +51,5 @@ Abaixo, seguem links bem bacanas, sobre tópicos mencionados durante a aula:
 [Neste link](https://drive.google.com/file/d/1crVPOVl6ok2HeYjh3fjQuGQn2lDZVHrn/view?usp=sharing), seguem os slides apresentados como o roteiro utilizado para o desenvolvimento do projeto da nossa sessão.
 
 Projeto original [aqui](https://github.com/rpeleias/personapi_digital_innovation_one).
+
+Eu criei a aplicação com Java 16, apesar das instruções do professor, então vou ficar devendo o deploy no Heroku, que só suporta até o Java 14.

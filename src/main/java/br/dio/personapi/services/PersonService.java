@@ -26,7 +26,7 @@ public class PersonService {
         Person person = personMapper.toModel(personDTO);
         Person savedPerson = personRepository.save(person);
 
-        MessageResponseDTO messageResponse = createMessageResponse("Person successfully created with ID ", savedPerson.getId());
+        MessageResponseDTO messageResponse = createMessageResponse("Pessoa criada com o ID: ", savedPerson.getId());
 
         return messageResponse;
     }
@@ -52,7 +52,7 @@ public class PersonService {
         Person updatedPerson = personMapper.toModel(personDTO);
         Person savedPerson = personRepository.save(updatedPerson);
 
-        MessageResponseDTO messageResponse = createMessageResponse("Person successfully updated with ID ", savedPerson.getId());
+        MessageResponseDTO messageResponse = createMessageResponse("Pessoa atualizada com o ID: ", savedPerson.getId());
 
         return messageResponse;
     }
